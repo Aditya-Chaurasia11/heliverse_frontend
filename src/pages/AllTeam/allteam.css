@@ -1,0 +1,18 @@
+.team_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team_container {
+  padding: 50px 80px;
+}
+.team_table_container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .team_container {
+    padding: 20px;
+  }
+}

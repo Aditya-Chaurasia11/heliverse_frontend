@@ -1,0 +1,45 @@
+.img_parent img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.action {
+  background: none !important;
+  border: none;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown_btn {
+  background: none !important;
+  border: none;
+}
+
+.dots {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+td {
+  height: 60px;
+}
+.card_container_outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.table_container {
+  margin-top: 30px;
+}
+
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  margin-top: 50px;
+}

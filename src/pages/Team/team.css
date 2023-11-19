@@ -1,0 +1,36 @@
+.team_container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form_control {
+  width: 400px;
+}
+.team_container_header_form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.team_container_body {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .team_container {
+    padding: 20px;
+  }
+  .team_container_header_form {
+    width: 100%;
+  }
+  .form_control {
+    width: 100%;
+  }
+  .button_team {
+    font-size: 10px;
+    /* width: max-content; */
+  }
+}

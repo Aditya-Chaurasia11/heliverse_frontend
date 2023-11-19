@@ -1,0 +1,32 @@
+.viewteam_body_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.viewteam_container {   
+  padding: 50px 80px;
+}
+
+.viewteam_container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.viewteam_body {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .viewteam_container {
+    padding: 30px;
+  }
+  .viewteam_container_header h1 {
+    font-size: 20px;
+  }
+}
