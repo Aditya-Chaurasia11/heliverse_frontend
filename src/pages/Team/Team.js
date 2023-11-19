@@ -4,6 +4,8 @@ import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./team.css";
 import { useNavigate } from "react-router-dom";
@@ -52,6 +54,7 @@ const UserList = () => {
       const updatedUsers = selectedUsers.filter((user) => user._id !== userId);
       setSelectedUsers(updatedUsers);
       console.log("User is inactive or already selected from the same domain");
+      toast.error("User is inactive or already selected from the same domain")
     }
   };
 
@@ -186,6 +189,7 @@ const UserList = () => {
             </tbody>
           </Table>
         </div>
+        <ToastContainer position="top-center" />
       </div>
     </>
   );

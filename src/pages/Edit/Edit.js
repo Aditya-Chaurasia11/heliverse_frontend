@@ -106,6 +106,8 @@ const Edit = () => {
       toast.error("Gender is Required !");
     } else if (status === "") {
       toast.error("Status is Required !");
+    } else if (domain === "") {
+      toast.error("Domain is Required !");
     } else if (location === "") {
       toast.error("location is Required !");
     } else {

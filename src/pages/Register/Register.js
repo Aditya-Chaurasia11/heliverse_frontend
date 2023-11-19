@@ -133,7 +133,7 @@ const Register = () => {
         setUseradd(response.data);
         navigate("/");
       } else {
-        toast.error("Error!");
+        toast.error("Email or mobile already exit");
       }
     }
   };
